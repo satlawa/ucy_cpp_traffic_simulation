@@ -6,6 +6,9 @@
 #include <condition_variable>
 #include "TrafficObject.h"
 
+// define traffic light phases
+enum TrafficLightPhase { green, red };
+
 // forward declarations to avoid include cycle
 class Vehicle;
 
@@ -33,11 +36,10 @@ private:
 class TrafficLight : public TrafficObject
 {
 public:
-  enum TrafficLightPhase { green, red };
     // constructor / desctructor
 
     // getters / setters
-    TrafficLightPhase getCurrentPhase() { return _currentPhase; }
+    TrafficLightPhase getCurrentPhase();
 
     // typical behaviour methods
     void waitForGreen();
@@ -51,9 +53,11 @@ private:
     // and use it within the infinite loop to push each new TrafficLightPhase into it by calling
     // send in conjunction with move semantics.
 
+    MessageQueue<TrafficLightPhase> _trafficLights;
+    TrafficLightPhase _currentPhase;
+
     std::condition_variable _condition;
     std::mutex _mutex;
-    TrafficLightPhase _currentPhase;
 };
 
 #endif
