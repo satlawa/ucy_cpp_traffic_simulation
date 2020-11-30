@@ -5,6 +5,7 @@ CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Graphics.cpp
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Graphics.h
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Intersection.h
+ /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/TrafficLight.h
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/TrafficObject.h
  /usr/local/include/opencv4/opencv2/core.hpp
  /usr/local/include/opencv4/opencv2/core/base.hpp
@@ -44,12 +45,14 @@ CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Intersection.cpp
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Intersection.h
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Street.h
+ /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/TrafficLight.h
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/TrafficObject.h
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Vehicle.h
 CMakeFiles/traffic_simulation.dir/src/Street.cpp.o
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Intersection.h
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Street.cpp
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Street.h
+ /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/TrafficLight.h
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/TrafficObject.h
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Vehicle.h
 CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o
@@ -63,6 +66,7 @@ CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Graphics.h
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Intersection.h
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Street.h
+ /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/TrafficLight.h
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/TrafficObject.h
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/TrafficSimulator-Final.cpp
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Vehicle.h
@@ -99,6 +103,7 @@ CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o
 CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Intersection.h
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Street.h
+ /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/TrafficLight.h
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/TrafficObject.h
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Vehicle.cpp
  /home/philipp/Code/cpp/ucy_cpp_traffic_simulation/src/Vehicle.h

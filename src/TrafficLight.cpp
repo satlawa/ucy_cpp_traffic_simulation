@@ -99,8 +99,8 @@ void TrafficLight::cycleThroughPhases()
       {
         switch (_currentPhase)
         {
-          case green  : _currentPhase = red;
-          case red    : _currentPhase = green;
+          case green  : _currentPhase = red; break;
+          case red    : _currentPhase = green; break;
         }
 
         // send current thaffic light state
